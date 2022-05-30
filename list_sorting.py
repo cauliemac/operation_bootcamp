@@ -4,7 +4,7 @@ Created on Mon May 30 22:01:23 2022
 
 @author: cauli
 
-mewssing with lists
+messing with lists
 """
 import string
 import random
