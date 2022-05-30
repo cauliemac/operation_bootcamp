@@ -14,6 +14,17 @@ instead of the number.
 """
 
 def Fizzbuzz(N, int_1, int_2): 
+    
+    if isinstance(N, int) != 1:
+        print("invalid input: N is not an int")
+        return
+    if isinstance(int_1, int) != 1:
+        print("invalid input: int_1 is not an int")
+        return
+    if isinstance(int_2, int) != 1:
+        print("invalid input: int_2 is not an int")
+        return
+    
     word_1 = "Fizz"
     word_2 = "Buzz"
     
@@ -32,4 +43,4 @@ def Fizzbuzz(N, int_1, int_2):
         
     return
 
-Fizzbuzz(50,3,5)
+Fizzbuzz(50,3,'5')
