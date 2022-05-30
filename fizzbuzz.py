@@ -44,4 +44,4 @@ def Fizzbuzz(N, int_1, int_2):
         
     return
 
-Fizzbuzz(50,3,'5')
+Fizzbuzz(50,3,5)
