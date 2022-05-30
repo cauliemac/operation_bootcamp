@@ -12,6 +12,7 @@ For numbers which are multiple of 3 and 5 both, the array should have “FizzBuz
 instead of the number.
 
 """
+#TODO add classes
 
 def Fizzbuzz(N, int_1, int_2): 
     
